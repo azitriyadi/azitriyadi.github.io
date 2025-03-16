@@ -7,6 +7,7 @@
     <title>Portofolio Aji</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 
 <body x-data="{ darkMode: localStorage.getItem('darkMode') === 'true' }" 
@@ -49,17 +50,17 @@
             <img src="poto/poto_diri.jpeg" alt="Foto Aji" class="w-72 h-72 rounded-lg shadow-lg">
         </div>
     </section>
-    <section id="about" class="bg-gray-200 py-20 text-center">
+    <section id="about" class="dark:bg-gray-800 py-20 text-center">
         <h2 class="text-3xl font-semibold">Tentang Saya</h2>
         <p class="mt-4 text-lg max-w-3xl mx-auto">Saya berasal dari cimahi jawa barat lahir di cimahi tahun 2005 bulan agustus rabu tanggal 03 sd di
             SDN sarijadi selatan lulus 2018 , SMP Pasudan 12 Bandung lulusan 2021 , SMKN 11 Bandung lulusan 2021 - 2024
             , Perguran tinggi ULBI 2024 - sekarang</p>
     </section>
 
-    <section id="skills" class="py-20 max-w-5xl mx-auto text-center">
+    <section id="skills" class="py-20 max-w-5xl mx-auto dark:bg-gray-800 text-center">
         <h2 class="text-3xl font-semibold">Bahasa Pemrograman</h2>
-        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            <div class="w-full max-w-sm p-4 bg-white shadow-md rounded-lg mx-auto">
+        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
+            <div  class="w-full max-w-sm p-4 dark:bg-gray-800 shadow-md rounded-lg mx-auto">
                 <p class="text-lg font-semibold text-center">HTML</p>
                 <div class="flex items-center gap-3 mt-2">
                     <img src="poto/html.png" alt="HTML Logo" class="w-8 h-8">
@@ -70,7 +71,7 @@
                 </div>
             </div>
 
-            <div class="w-full max-w-sm p-4 bg-white shadow-md rounded-lg mx-auto">
+            <div class="w-full max-w-sm p-4 dark:bg-gray-800 shadow-md rounded-lg mx-auto">
                 <p class="text-lg font-semibold text-center">CSS</p>
                 <div class="flex items-center gap-3 mt-2">
                     <img src="poto/css.png" alt="CSS Logo" class="w-8 h-8">
@@ -81,7 +82,7 @@
                 </div>
             </div>
 
-            <div class="w-full max-w-sm p-4 bg-white shadow-md rounded-lg mx-auto">
+            <div class="w-full max-w-sm p-4 dark:bg-gray-800 shadow-md rounded-lg mx-auto">
                 <p class="text-lg font-semibold text-center">PYTHON</p>
                 <div class="flex items-center gap-3 mt-2">
                     <img src="https://via.placeholder.com/40" alt="Python Logo" class="w-8 h-8">
@@ -92,7 +93,7 @@
                 </div>
             </div>
 
-            <div class="w-full max-w-sm p-4 bg-white shadow-md rounded-lg mx-auto">
+            <div class="w-full max-w-sm p-4 dark:bg-gray-800 shadow-md rounded-lg mx-auto">
                 <p class="text-lg font-semibold text-center">GO</p>
                 <div class="flex items-center gap-3 mt-2">
                     <img src="https://via.placeholder.com/40" alt="Golang Logo" class="w-8 h-8">
@@ -103,7 +104,7 @@
                 </div>
             </div>
 
-            <div class="w-full max-w-sm p-4 bg-white shadow-md rounded-lg mx-auto">
+            <div class="w-full max-w-sm p-4 dark:bg-gray-800 shadow-md rounded-lg mx-auto">
                 <p class="text-lg font-semibold text-center">PHP</p>
                 <div class="flex items-center gap-3 mt-2">
                     <img src="https://via.placeholder.com/40" alt="Golang Logo" class="w-8 h-8">
@@ -115,7 +116,7 @@
             </div>
         </div>
     </section>
-    <section id="organization" class="bg-gray-200 py-20 text-center">
+    <section id="organization" class="dark:bg-gray-800 py-20 text-center">
         <h2 class="text-3xl font-semibold">Organisasi</h2>
         <div class="mt-6 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
             <div class="bg-white p-4 rounded-lg shadow-md text-center">
@@ -135,7 +136,7 @@
             </div>
         </div>
     </section>
-    <section id="projects" class="py-20 text-center bg-white">
+    <section id="projects" class="py-20 text-center dark:bg-gray-800">
         <h2 class="text-3xl font-semibold">Projek Saya</h2>
         <div class="mt-6 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
             <div class="bg-gray-100 p-4 rounded-lg shadow-md">
